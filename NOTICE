@@ -1,0 +1,20 @@
+NIBIA Fabric
+Copyright 2026 Abel López Almanza
+
+NIBIA Fabric can download and manage separately licensed third-party runtime artifacts.
+Those third-party components retain their own licenses and notices.
+
+Third-party runtime and interoperability notes
+
+NIBIA Fabric v0.7.0-alpha uses a pinned, separately downloaded llama.cpp runtime:
+https://github.com/ggml-org/llama.cpp
+
+llama.cpp remains an independent MIT-licensed project and retains its own
+license and notices.
+
+Open WebUI and OpenClaw are optional independent clients that were used for
+interoperability validation; they are not bundled with NIBIA Fabric and are not required
+to use NIBIA Fabric. Each retains its own upstream license terms:
+https://github.com/open-webui/open-webui
+https://github.com/openclaw/openclaw
+
