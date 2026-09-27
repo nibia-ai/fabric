@@ -3,7 +3,7 @@
 ## v0.7.0-alpha — Experimental Alpha
 
 - Completes the final exact-artifact acceptance on the frozen public-named macOS arm64, Linux amd64, and Windows amd64 archives; all three platform installs, local Doctor checks, binary-identity checks, three-node RUN/SERVE/API lifecycle gates, and synchronous cleanup checks passed before publication.
-- Freezes the public release checksums at `f3c483a9...` (macOS), `80ccdce0...` (Linux), and `3172d1fa...` (Windows).
+- Freezes the public release checksums at `661a0224...` (macOS), `d6622c93...` (Linux), and `f166cb30...` (Windows).
 - Keeps RUN and SERVE distributed-loading progress on the same live 750 ms cache-aware renderer, and clarifies stopped relay diagnostics by labeling persistent Agent reverse-mTLS tunnels separately from an active controller-loopback relay while preserving the target node identity.
 - Makes the Controller the single liveness authority during lifecycle cleanup: the CLI no longer abandons RPC-stop cleanup on its shorter readiness-staleness threshold, preventing `Runtime cleanup: complete` from racing ahead of still-running remote workers after heavy inference. Cleanup also validates that a successful stop result reports `running=false`, and RUN/SERVE distinguish warning-bearing teardown from fully clean teardown.
 - Treats requested managed RPC-worker teardown as normal lifecycle, so `nibia fabric worker status` reserves `Last exit error` for unexpected process exits instead of reporting cross-platform `Process.Kill()` results as failures.
