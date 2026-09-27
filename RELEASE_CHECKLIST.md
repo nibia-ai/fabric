@@ -95,9 +95,9 @@ Because this cleanup and final hardening changed release binaries/installers, th
 ## Public repository
 
 - [ ] Enable GitHub Private Vulnerability Reporting before or immediately with publication.
-- [ ] Create Git tag `v0.7.0-alpha` from the exact source used for the accepted artifacts.
-- [ ] Create release title **NIBIA Fabric v0.7.0 Experimental Alpha**.
-- [ ] Attach macOS arm64, Linux amd64, Windows amd64, and SHA-256 checksum assets. GitHub generates source-code archives from the tag automatically.
+- [x] Create Git tag `v0.7.0-alpha` from the exact source used for the accepted artifacts.
+- [x] Create release title **NIBIA Fabric v0.7.0 Experimental Alpha**.
+- [x] Attach macOS arm64, Linux amd64, Windows amd64, and SHA-256 checksum assets. GitHub generates source-code archives from the tag automatically.
 
 ## macOS signing/notarization
 
