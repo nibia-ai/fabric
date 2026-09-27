@@ -15,6 +15,29 @@ CLI version: **v0.7.0-alpha**
 Wire protocol: **2**  
 License: **Apache-2.0**
 
+## Download
+
+NIBIA Fabric v0.7.0 Experimental Alpha is available as prebuilt binaries.
+Choose the archive for your operating system:
+
+| Platform | Download |
+| --- | --- |
+| **macOS Apple Silicon** | [Download macOS arm64](https://github.com/nibia-ai/fabric/releases/download/v0.7.0-alpha/nibia-v0.7.0-alpha-macos-arm64.zip) |
+| **Linux x86-64** | [Download Linux amd64](https://github.com/nibia-ai/fabric/releases/download/v0.7.0-alpha/nibia-v0.7.0-alpha-linux-amd64.zip) |
+| **Windows x64** | [Download Windows amd64](https://github.com/nibia-ai/fabric/releases/download/v0.7.0-alpha/nibia-v0.7.0-alpha-windows-amd64.zip) |
+| **SHA-256 checksums** | [Download checksum file](https://github.com/nibia-ai/fabric/releases/download/v0.7.0-alpha/NIBIA_v0.7.0-alpha_SHA256SUMS.txt) |
+
+**Verify the SHA-256 checksum before installation.**
+
+> GitHub also generates automatic **Source code (zip)** and **Source code (tar.gz)**
+> archives for every release. These are source snapshots, not the prebuilt NIBIA
+> packages intended for normal installation. Use the platform downloads above.
+
+After downloading, follow the [Quickstart](QUICKSTART.md) to install NIBIA,
+configure the Primary Node, and pair additional Worker Nodes.
+
+See the complete [v0.7.0 Experimental Alpha release](https://github.com/nibia-ai/fabric/releases/tag/v0.7.0-alpha).
+
 ## Supported release platforms
 
 Prebuilt binaries for this Experimental Alpha are provided for:
