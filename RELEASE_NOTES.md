@@ -42,9 +42,11 @@ The exact public-named macOS arm64, Linux amd64, and Windows amd64 archives were
 
 Frozen release-asset SHA-256 values:
 
-- `f3c483a91ec7fc36e85cd563c189c1cce53f2e8582a26109e9a5f5936ae51056` — `nibia-v0.7.0-alpha-macos-arm64.zip`
-- `80ccdce0837d537623088b1a71d7f650dae5820d4b6a5d3c434304f348d1f742` — `nibia-v0.7.0-alpha-linux-amd64.zip`
-- `3172d1fa969fc77253c9a8d5eda9a11f7830d3e6f19b86134c9566ee6d09accd` — `nibia-v0.7.0-alpha-windows-amd64.zip`
+- `661a02243a946e0539ad7eb202b43d157284e3078389ec6252b15e80503fbb17` — `nibia-v0.7.0-alpha-macos-arm64.zip`
+- `d6622c93c597f3422d89d836ed712a60578a16d54a731b9ad28633583c706038` — `nibia-v0.7.0-alpha-linux-amd64.zip`
+- `f166cb3078f035ad8e46a2209ea1a266e519b8c194368144a83a192e3e35c898` — `nibia-v0.7.0-alpha-windows-amd64.zip`
+
+Publication note (2026-09-27): the checksum values in the release notes were corrected after publication to match the already-published release assets and SHA-256 manifest. The release assets and tag were not replaced or modified.
 
 The macOS archive remains an unsigned Experimental Alpha; the installer therefore requires checksum verification before documented quarantine removal when Gatekeeper quarantine is present.
 
