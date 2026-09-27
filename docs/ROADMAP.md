@@ -23,7 +23,7 @@ The inference/runtime scope is fixed for publication. A pre-public cleanup remov
 
 - [x] Run the narrow final acceptance gate from the exact public-named platform archives.
 - [x] Freeze the repository snapshot and release checksums after that gate passes and a docs-only closure rebuild confirms identical release binaries.
-- [ ] Enable GitHub Private Vulnerability Reporting.
+- [x] Enable GitHub Private Vulnerability Reporting.
 - [x] Publish tag `v0.7.0-alpha` and the macOS/Linux/Windows release assets plus SHA-256 checksums. GitHub will generate source-code archives from the tag.
 - [ ] Developer ID signing/notarization can follow if the first Experimental Alpha is clearly published as unsigned with checksum-first macOS instructions.
 
